@@ -41,7 +41,7 @@ CI provided by TravisCI
 
 ##### Example test results
 
-```
+```sh
 FormatPhone number parser
   Valid number tests
     CHINA TEST NUMBERS
