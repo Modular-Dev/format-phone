@@ -1,6 +1,6 @@
 {
   "name": "format-phone",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert text to international friendly phone number format",
   "homepage": "https://github.com/fbatroni/format-phone",
   "author": {
