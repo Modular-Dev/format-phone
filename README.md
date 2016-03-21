@@ -113,7 +113,6 @@ FormatPhone number parser
 
 ```
 
-```
 ## License
 
 MIT © [Fritz G. Batroni](https://fritzbatroni.wordpress.com/)
