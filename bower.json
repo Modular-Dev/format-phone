@@ -1,44 +1,44 @@
 {
-    "name": "format-phone",
-    "version": "0.0.4",
-    "title": "Phone Format",
-    "appPath": "dist",
-    "description": "Convert text to international friendly phone number format",
-    "keywords": [
-      "phone",
-      "phone format",
-      "phone numbers",
-      "format",
-      "format phone",
-      "international",
-      "e-164"
-    ],
-    "homepage": "https://github.com/fbatroni/format-phone",
-    "author": {
-        "name": "Fritz G. Batroni"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/fbatroni/format-phone.git"
-    },
-    "bugs": "https://github.com/fbatroni/format-phone/issues",
-    "main": [
-        "dist/format-phone.js"
-    ],
-    "ignore": [
-        "/*.*",
-        "**/.*",
-        "node_modules",
-        "bower_components",
-        "app/bower_components",
-        "app",
-        "common",
-        "test",
-        "tests"
-    ],
-    "authors": [
-        "Fritz G. Batroni <fritz.g.batroni@gmail.com>"
-    ],
-    "license": "MIT",
-    "dependencies": {}
+  "name": "format-phone",
+  "version": "0.0.5",
+  "title": "Phone Format",
+  "appPath": "dist",
+  "description": "Convert text to international friendly phone number format",
+  "keywords": [
+    "phone",
+    "phone format",
+    "phone numbers",
+    "format",
+    "format phone",
+    "international",
+    "e-164"
+  ],
+  "homepage": "https://github.com/fbatroni/format-phone",
+  "author": {
+    "name": "Fritz G. Batroni"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fbatroni/format-phone.git"
+  },
+  "bugs": "https://github.com/fbatroni/format-phone/issues",
+  "main": [
+    "dist/format-phone.js"
+  ],
+  "ignore": [
+    "/*.*",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "app",
+    "common",
+    "test",
+    "tests"
+  ],
+  "authors": [
+    "Fritz G. Batroni <fritz.g.batroni@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {}
 }
