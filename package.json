@@ -1,6 +1,7 @@
 {
   "name": "format-phone",
   "version": "0.0.4",
+  "title": "Format Phone",
   "description": "Convert text to international friendly phone number format",
   "homepage": "https://github.com/fbatroni/format-phone",
   "author": {
@@ -13,15 +14,21 @@
   ],
   "main": "lib/index.js",
   "keywords": [
+    "phone",
+    "phone format",
+    "phone numbers",
+    "format",
     "format phone",
     "international",
-    "e164"
+    "e-164"
   ],
   "devDependencies": {
     "assert": "^1.3.0",
+    "browserify": "^13.0.0",
     "chai": "^3.5.0",
     "change-case": "^2.3.1",
     "coffee-script": "^1.10.0",
+    "coffeeify": "^2.0.1",
     "del": "^2.2.0",
     "eslint-config-xo-space": "^0.7.0",
     "gulp": "^3.9.0",
@@ -35,7 +42,11 @@
     "gulp-mocha": "^2.2.0",
     "gulp-nsp": "^2.3.1",
     "gulp-plumber": "^1.1.0",
-    "gulp-util": "^3.0.7"
+    "gulp-rename": "^1.2.2",
+    "gulp-run-sequence": "^0.3.2",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7",
+    "vinyl-source-stream": "^1.1.0"
   },
   "eslintConfig": {
     "extends": "xo-space",

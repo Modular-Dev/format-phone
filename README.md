@@ -15,20 +15,34 @@ $ npm install --save format-phone
 ## Usage
 
 ```javascript
-var formatPhone = require('format-phone');
+var phoneFormat = require('format-phone');
+var parsednumber = phoneFormat.parsePhoneNumber('212-555-1234', 'US');
+console.log(parsednumber);
 
-formatPhone('Rainbow');
-
+{ e164: '+12125551234',
+  rfc3966: 'tel:+1-212-555-1234',
+  intl: '+1 212-555-1234',
+  national: '(212) 555-1234',
+  countryCode: 'US',
+  countryName: 'United States',
+  phoneType: 'FIXED_LINE_OR_MOBILE',
+  region: 'US',
+  validNumberForRegion: true,
+  hasExtension: false }
+  
 ```
 
 ## Development
 
 ```
-source location: ./app/scripts
+source location: ./src
 
 language: CoffeeScript
 
 build system: gulp (browserify, coffeelint)
+
+`gulp` - compiles for npm (default)
+`gulp bower` - compiles for bower 
 
 ```
 
