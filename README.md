@@ -12,9 +12,14 @@ Piggybacks off the google libphonenumber library for the heavy lifting and adds 
 $ npm install --save format-phone
 ```
 
+```sh
+$ bower install --save format-phone
+```
+
 ## Usage
 
 ```javascript
+
 var phoneFormat = require('format-phone');
 var parsednumber = phoneFormat.parsePhoneNumber('212-555-1234', 'US');
 console.log(parsednumber);
@@ -29,7 +34,28 @@ console.log(parsednumber);
   region: 'US',
   validNumberForRegion: true,
   hasExtension: false }
-  
+
+```
+
+```html
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="format-phone/dist/format-phone.js"></script>
+    <script>
+      var formatPhone = FormatPhone;
+      console.log(formatPhone.parsePhoneNumber('15165557676'));
+    </script>
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <p>Welcome to {{ title }}</p>
+  </body>
+</html>
+
 ```
 
 ## Development
